@@ -9,3 +9,46 @@
     --second-pouring-color:#F5F4FA;
     --footer-text:#FFFFFF99;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--logo-color);
+}
+.black{
+    color: var(--second-logo-color);
+}
+.navigation{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.site-nav-link{
+    color: var(--title-text);
+}
+.contact-link{
+    color: var(--text-color);
+}
+.contacts{
+    font-size: 14px;
+    font-weight: 500;
+}
+.container-header{
+    background-color: var(--second-pouring-color);
+}
