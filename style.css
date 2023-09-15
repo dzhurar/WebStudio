@@ -25,6 +25,7 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
+/* header */
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -51,4 +52,69 @@ a{
 }
 .container-header{
     background-color: var(--second-pouring-color);
+}
+/* hero */
+.hero{
+    background-color: var(--pouring-color);
+}
+.main-title{
+    font-size: 44px;
+    color: var(--opposite-color);
+    font-weight: 900;
+}
+.main-button{
+    background-color:var(--logo-color) ;
+}
+.main-button-text{
+    color: var(--opposite-color);
+    font-size: 16px;
+    font-weight: 700;
+}
+/* priorities */
+.priorities-list-title{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--title-text);
+}
+.priorities-list-text{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+}
+/* Наша справа - our business */
+.business-title{
+    color: var(--title-text);
+    font-weight: 700;
+    font-size: 36px;
+}
+/* команда */
+.team-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--title-text);
+}
+.employee{
+    color: var(--title-text);
+    font-weight: 500;
+    font-size: 16px;
+}
+.employee-position{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+/* Контактні дані */
+.contacts-container{
+    background-color: var(--pouring-color);
+}
+.address{
+    color: var(--opposite-color);
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer-contact-link{
+    color: var(--footer-text);
+    font-weight: 400;
+    font-size: 14px;
 }
