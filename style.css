@@ -40,6 +40,11 @@ a{
     font-weight: 500;
 
 }
+.site-nav-link:hover,
+.site-nav-link:focus{
+    color: var(--hover-color);
+    cursor: pointer;
+}
 .site-nav-link{
     color: var(--title-text);
 }
@@ -114,4 +119,27 @@ a{
     color: var(--footer-text);
     font-weight: 400;
     font-size: 14px;
+}
+/* портфоліо */
+.nav-button-text{
+    color: var(--title-text);
+    font-weight: 500;
+    font-size: 16px;
+}
+.nav-button-text:hover{
+    color: var(--opposite-color);
+}
+.nav-button:hover{
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+.project-name{
+    color: var(--title-text);
+    font-size: 18px;
+    font-weight: 700;
+}
+.project-type{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
 }
