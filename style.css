@@ -110,6 +110,12 @@ a{
     font-size: 16px;
 }
 /* Контактні дані */
+.contacts-container{
+    background-color: var(--pouring-color);
+}
+.white{
+    color: var(--opposite-color);
+}
 .address{
     color: var(--opposite-color);
     font-weight: 400;
