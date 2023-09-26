@@ -38,7 +38,7 @@ a{
 .site-nav-link{
     color: var(--title-text);
 }
-.contact-link{
+.contacts-link{
     color: var(--text-color);
 }
 .contacts{
@@ -52,15 +52,15 @@ a{
 .hero{
     background-color: var(--pouring-color);
 }
-.main-title{
+.hero-title{
     font-size: 44px;
     color: var(--opposite-color);
     font-weight: 900;
 }
-.main-button{
+.hero-button{
     background-color:var(--logo-color) ;
 }
-.main-button-text{
+.hero-button-text{
     color: var(--opposite-color);
     font-size: 16px;
     font-weight: 700;
@@ -78,17 +78,12 @@ a{
     font-size: 14px;
 }
 /* Наша справа - our business */
-.business-title{
+.section-title{
     color: var(--title-text);
     font-weight: 700;
     font-size: 36px;
 }
 /* команда */
-.team-title{
-    font-size: 36px;
-    font-weight: 700;
-    color: var(--title-text);
-}
 .employee{
     color: var(--title-text);
     font-weight: 500;
@@ -102,6 +97,12 @@ a{
 /* Контактні дані */
 .contacts-container{
     background-color: var(--pouring-color);
+}
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--logo-color);
 }
 .white{
     color: var(--opposite-color);
