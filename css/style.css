@@ -16,7 +16,6 @@ body{
     width: 1200px;
     margin: 0 auto;
     pad: 0 15px;
-    border: 2px red solid;
 }
 a{
     cursor: pointer;
@@ -57,11 +56,13 @@ a{
 /* hero */
 .hero{
     background-color: var(--pouring-color);
+    margin-bottom: 94px;
 }
 .hero-title{
     font-size: 44px;
     color: var(--opposite-color);
     font-weight: 900;
+    margin-bottom: 30px;
 }
 .hero-button{
     background-color:var(--logo-color) ;
@@ -72,6 +73,9 @@ a{
     font-weight: 700;
 }
 /* priorities */
+.advantages{
+    padding-bottom: 94px;
+}
 .priorities-list-title{
     text-transform: uppercase;
     font-size: 14px;
@@ -84,12 +88,18 @@ a{
     font-size: 14px;
 }
 /* Наша справа - our business */
+.activities{
+    padding-bottom: 188px;
+}
 .section-title{
     color: var(--title-text);
     font-weight: 700;
     font-size: 36px;
 }
 /* команда */
+.team{
+    margin-bottom: 94px;
+}
 .employee{
     color: var(--title-text);
     font-weight: 500;
