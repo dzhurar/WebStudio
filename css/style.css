@@ -16,6 +16,7 @@ body{
     width: 1200px;
     margin: 0 auto;
     pad: 0 15px;
+    border: 2px red solid;
 }
 a{
     cursor: pointer;
