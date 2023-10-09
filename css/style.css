@@ -12,6 +12,11 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    pad: 0 15px;
+}
 a{
     cursor: pointer;
 }
@@ -95,7 +100,7 @@ a{
     font-size: 16px;
 }
 /* Контактні дані */
-.contacts-container{
+.footer{
     background-color: var(--pouring-color);
 }
 .footer-logo{
