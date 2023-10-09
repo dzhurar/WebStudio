@@ -72,7 +72,7 @@ a{
     font-size: 16px;
     font-weight: 700;
 }
-/* priorities */
+/* Переваги */
 .advantages{
     padding-bottom: 94px;
 }
@@ -81,29 +81,41 @@ a{
     font-size: 14px;
     font-weight: 700;
     color: var(--title-text);
+    margin-bottom: 10px;
 }
 .priorities-list-text{
     color: var(--text-color);
     font-weight: 400;
     font-size: 14px;
 }
-/* Наша справа - our business */
+/* Чим ми займаємось */
 .activities{
     padding-bottom: 188px;
+}
+.activity-img{
+    width: 370px;
+    height: 294px;
 }
 .section-title{
     color: var(--title-text);
     font-weight: 700;
     font-size: 36px;
+    margin-bottom: 50px;
 }
-/* команда */
+/* Наша команда */
 .team{
     margin-bottom: 94px;
+}
+.employee-img{
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
 }
 .employee{
     color: var(--title-text);
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 .employee-position{
     color: var(--text-color);
