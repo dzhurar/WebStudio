@@ -21,11 +21,24 @@ a{
     cursor: pointer;
 }
 /* header */
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-wrap{
+    display: flex;
+    align-items: center;
+}
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: var(--logo-color);
+    margin-right: 93px;
 }
 .black{
     color: var(--second-logo-color);
@@ -33,7 +46,11 @@ a{
 .navigation{
     font-size: 14px;
     font-weight: 500;
-
+}
+.site-nav{
+    width: 281px;
+    display: flex;
+    justify-content: space-between;
 }
 .site-nav-link:hover,
 .site-nav-link:focus{
@@ -49,6 +66,11 @@ a{
 .contacts{
     font-size: 14px;
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    margin-right: 50px;
 }
 .container-header{
     background-color: var(--second-pouring-color);
@@ -57,15 +79,23 @@ a{
 .hero{
     background-color: var(--pouring-color);
     margin-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title{
     font-size: 44px;
     color: var(--opposite-color);
     font-weight: 900;
     margin-bottom: 30px;
+    text-align: center;
+}
+.hero-button-wrap{
+    display: flex;
+    justify-content: center;
 }
 .hero-button{
-    background-color:var(--logo-color) ;
+    background-color:var(--logo-color);
+    padding: 10px 32px;
 }
 .hero-button-text{
     color: var(--opposite-color);
@@ -75,6 +105,13 @@ a{
 /* Переваги */
 .advantages{
     padding-bottom: 94px;
+}
+.priorities-list{
+    display: flex;
+    justify-content: space-between;
+}
+.priorities-list-item{
+    width: 270px;
 }
 .priorities-list-title{
     text-transform: uppercase;
@@ -87,10 +124,15 @@ a{
     color: var(--text-color);
     font-weight: 400;
     font-size: 14px;
+    line-height: 171.429%;
 }
 /* Чим ми займаємось */
 .activities{
     padding-bottom: 188px;
+}
+.activity-list{
+    display: flex;
+    justify-content: space-between;
 }
 .activity-img{
     width: 370px;
@@ -101,15 +143,28 @@ a{
     font-weight: 700;
     font-size: 36px;
     margin-bottom: 50px;
+    text-align: center;
 }
 /* Наша команда */
 .team{
-    margin-bottom: 94px;
+    padding-bottom: 94px;
+    border-color: var(--second-pouring-color);
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+}
+.team-list-item{
+    width: 270px;
+    padding-bottom: 30px;
 }
 .employee-img{
     width: 270px;
     height: 260px;
     margin-bottom: 30px;
+}
+.employee-wrap{
+    text-align: center;
 }
 .employee{
     color: var(--title-text);
@@ -125,6 +180,8 @@ a{
 /* Контактні дані */
 .footer{
     background-color: var(--pouring-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-logo{
     font-family: 'Raleway', sans-serif;
@@ -134,6 +191,12 @@ a{
 }
 .white{
     color: var(--opposite-color);
+}
+.footer-list{
+    margin-top: 20px;
+}
+.contacts-list-item{
+    margin-bottom: 9px;
 }
 .address{
     color: var(--opposite-color);
