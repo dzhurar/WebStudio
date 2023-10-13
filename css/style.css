@@ -243,6 +243,11 @@ a{
     border-radius: 4px;
 }
 /* projects list */
+.project-img{
+    width: 370px;
+    height: 294px;
+    margin-bottom: 20px;
+}
 .project-name{
     color: var(--title-text);
     font-size: 18px;
