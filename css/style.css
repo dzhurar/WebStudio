@@ -15,7 +15,7 @@ body{
 .container{
     width: 1200px;
     margin: 0 auto;
-    pad: 0 15px;
+    padding: 0 15px;
 }
 a{
     cursor: pointer;
@@ -28,6 +28,7 @@ a{
 .header-wrap{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo-wrap{
     display: flex;
@@ -63,6 +64,10 @@ a{
 .contacts-link{
     color: var(--text-color);
 }
+.contacts-link:hover,
+.contacts-link:focus{
+    color: var(--hover-color);
+}
 .contacts{
     font-size: 14px;
     font-weight: 500;
@@ -88,6 +93,7 @@ a{
     font-weight: 900;
     margin-bottom: 30px;
     text-align: center;
+    text-transform: uppercase;
 }
 .hero-button-wrap{
     display: flex;
@@ -128,7 +134,7 @@ a{
 }
 /* Чим ми займаємось */
 .activities{
-    padding-bottom: 188px;
+    padding-bottom: 94px;
 }
 .activity-list{
     display: flex;
@@ -148,7 +154,8 @@ a{
 /* Наша команда */
 .team{
     padding-bottom: 94px;
-    border-color: var(--second-pouring-color);
+    padding-top: 94px;
+    background-color: var(--second-pouring-color);
 }
 .team-list{
     display: flex;
@@ -157,6 +164,7 @@ a{
 .team-list-item{
     width: 270px;
     padding-bottom: 30px;
+    background-color: var(--opposite-color);
 }
 .employee-img{
     width: 270px;
@@ -209,25 +217,44 @@ a{
     font-size: 14px;
 }
 /* портфоліо */
+.projects-nav{
+    margin-bottom: 50px;
+}
+.nav-button{
+    background-color: var(--second-pouring-color);
+    border: none;
+}
 .nav-button-text{
     color: var(--title-text);
     font-weight: 500;
     font-size: 16px;
+    padding: 6px 22px;
 }
-.nav-button-text:hover{
+.nav-button-text:hover,
+.nav-button-text:focus{
     color: var(--opposite-color);
+    padding: 6px 25px;
 }
-.nav-button:hover{
+.nav-button:hover,
+.nav-button:focus{
     background-color: var(--hover-color);
     cursor: pointer;
+    color: var(--opposite-color);
+    border-radius: 4px;
 }
+/* projects list */
 .project-name{
     color: var(--title-text);
     font-size: 18px;
     font-weight: 700;
+    line-height: 200%;
 }
 .project-type{
     color: var(--text-color);
     font-size: 16px;
     font-weight: 400;
+    line-height: 187.5%;
+}
+.projects{
+    padding-bottom: 94px;
 }
