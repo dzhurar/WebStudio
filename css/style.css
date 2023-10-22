@@ -8,6 +8,7 @@
     --pouring-color:#2F303A;/*колір заливки*/
     --second-pouring-color:#F5F4FA;
     --footer-text:#FFFFFF99;
+    --border-color:#ECECEC;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -79,6 +80,10 @@ a{
 }
 .container-header{
     background-color: var(--second-pouring-color);
+}
+.header-bottom-border{
+    margin-bottom: 94px;
+    background-color: var(--border-color);
 }
 /* hero */
 .hero{
@@ -220,12 +225,19 @@ a{
 .projects-nav{
     margin-bottom: 50px;
 }
+.cards-nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
 .nav-button{
     background-color: var(--second-pouring-color);
     border: none;
+    border-radius: 4%;
 }
 .nav-button-text{
     color: var(--title-text);
+    line-height: 162.5%;
     font-weight: 500;
     font-size: 16px;
     padding: 6px 22px;
@@ -233,7 +245,7 @@ a{
 .nav-button-text:hover,
 .nav-button-text:focus{
     color: var(--opposite-color);
-    padding: 6px 25px;
+    padding: 6px 22px;
 }
 .nav-button:hover,
 .nav-button:focus{
@@ -243,10 +255,21 @@ a{
     border-radius: 4px;
 }
 /* projects list */
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.project-item{
+    border: 1px solid var(--border-color);
+}
 .project-img{
     width: 370px;
     height: 294px;
     margin-bottom: 20px;
+}
+.project-description{
+    margin: 20px 24px;
 }
 .project-name{
     color: var(--title-text);
