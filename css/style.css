@@ -92,6 +92,9 @@ a{
     padding-top: 200px;
     padding-bottom: 200px;
 }
+/* .hero-wap{
+    width: 696px;
+} */
 .hero-title{
     font-size: 44px;
     color: var(--opposite-color);
@@ -99,6 +102,8 @@ a{
     margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
+    line-height: 136.364%;
+    letter-spacing: 2.64px;
 }
 .hero-button-wrap{
     display: flex;
@@ -107,11 +112,19 @@ a{
 .hero-button{
     background-color:var(--logo-color);
     padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+}
+.hero-button:hover,
+.hero-button:focus{
+    cursor: pointer;
 }
 .hero-button-text{
     color: var(--opposite-color);
     font-size: 16px;
     font-weight: 700;
+    line-height: 187.5%;
+    letter-spacing: 0.96px;
 }
 /* Переваги */
 .advantages{
@@ -170,6 +183,7 @@ a{
     width: 270px;
     padding-bottom: 30px;
     background-color: var(--opposite-color);
+    border-radius: 0px 0px 4px 4px;
 }
 .employee-img{
     width: 270px;
