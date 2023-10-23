@@ -92,9 +92,10 @@ a{
     padding-top: 200px;
     padding-bottom: 200px;
 }
-/* .hero-wap{
+.hero-wap{
     width: 696px;
-} */
+    margin: 0 auto;
+}
 .hero-title{
     font-size: 44px;
     color: var(--opposite-color);
