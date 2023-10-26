@@ -275,6 +275,10 @@ a{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-basis: calc((100% - 60px) / 3); */
 }
 .project-item{
     border: 1px solid var(--border-color);
