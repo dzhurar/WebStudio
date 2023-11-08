@@ -145,20 +145,20 @@ a{
     height: 120px;
     background-color: var(--second-pouring-color);
     border-radius: 4px;
-    background-image: url(../img/antenna.png);
+    background-image: url(../img/antenna.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
 }
 .priorities-list-item:nth-child(2)::before{
-    background-image: url(../img/clock.png);
+    background-image: url(../img/clock.webp);
 }
 .priorities-list-item:nth-child(3)::before{
-    background-image: url(../img/diagram.png);
+    background-image: url(../img/diagram.webp);
 }
 .priorities-list-item:nth-child(4)::before{
-    background-image: url(../img/astronaut.png);
+    background-image: url(../img/astronaut.webp);
 }
 .priorities-list-title{
     text-transform: uppercase;
@@ -270,7 +270,7 @@ a{
 .nav-button{
     background-color: var(--second-pouring-color);
     border: none;
-    border-radius: 4%;
+    border-radius: 4px;
 }
 .nav-button-text{
     color: var(--title-text);
@@ -304,6 +304,9 @@ a{
 }
 .project-item{
     border: 1px solid var(--border-color);
+}
+.project-item:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .project-img{
     width: 370px;
