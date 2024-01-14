@@ -55,7 +55,7 @@
                     <div class="hero-wap">
                         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                         <div class="hero-button-wrap">
-                            <button class="hero-button" type="button"><span class="hero-button-text">Замовити послугу</span></button>
+                            <button class="hero-button" type="button" data-modal-open><span class="hero-button-text">Замовити послугу</span></button>
                         </div>
                     </div>
                 </div>
@@ -336,7 +336,7 @@
                 </ul>
             </div>
             <!-- media -->
-            <div class="right-side-footer">
+            <div class="middle-side-footer">
                 <h3 class="footer-title">приєднуйтесь</h3>
                 <ul class="footer-social-list">
                     <li class="footer-social-list-item">
@@ -369,7 +369,64 @@
                     </li>
                 </ul>
             </div>
+            <div class="right-side-footer">
+                <h3 class="footer-title">підпишіться на розсилку</h3>
+                <form class="mailing-list-form">
+                    <label class="mailing-list-label" for="mailing">
+                        <input id="mailing" class="mailing-list-input" type="email" placeholder="E-mail">
+                    </label>
+                    <button class="mailing-list-button">Підписатися
+                        <svg class="mailing-list-icon">
+                            <use href="./img/symbol-defs.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
+    <!-- modal window -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-modal" data-modal-close>
+                <svg class="modal-form-icon">
+                    <use href="./img/modal-icons.svg#icon-x"></use>
+                </svg>
+            </button>
+            <form class="modal-form">
+                <p class="modal-form-title">Залиште свої дані, ми вам передзвонимо</p>
+                <div class="modal-form-field">
+                    <label for="name" class="modal-form-label">Ім'я</label>
+                    <input type="text" id="name" class="modal-form-input">
+                    <svg class="modal-form-icon">
+                        <use class="modal-icon" href="./img/modal-icons.svg#icon-person"></use>
+                    </svg>
+                </div>
+                <div class="modal-form-field">
+                    <label for="tel" class="modal-form-label">Телефон</label>
+                    <input type="tel" id="tel" class="modal-form-input">
+                    <svg class="modal-form-icon">
+                        <use class="modal-icon" href="./img/modal-icons.svg#icon-phone"></use>
+                    </svg>
+                </div>
+                <div class="modal-form-field">
+                    <label for="mail" class="modal-form-label">Пошта</label>
+                    <input type="email" id="mails" class="modal-form-input">
+                    <svg class="modal-form-icon">
+                        <use class="modal-icon" href="./img/modal-icons.svg#icon-email"></use>
+                    </svg>
+                </div>
+                <div class="modal-form-field">
+                    <label class="modal-form-label" for="coment">Коментар</label>
+                    <textarea placeholder="Введіть текст" class="modal-form-textarea" name="coment" id="coment" rows="10"></textarea>
+                </div>
+                <label class="modal-form-policy">
+                    <input type="checkbox" class="modal-form-checkbox">
+                    <p>Погоджуюся з россилкою та приймаю <a class="conditions" href="#">Умови договору</a></p>
+                </label>
+                <button type="submit" class="agree-button">Відправити</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
