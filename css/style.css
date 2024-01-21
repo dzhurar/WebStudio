@@ -12,6 +12,7 @@
     --social-icon: #AFB1B8;
     --footer-icon-border: #43444d;
     --icon-fill: #212121;
+    --project-overlay-background: rgba(33, 150, 243, 0.90);
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -619,9 +620,33 @@ button{
 }
 .project-item{
     border: 1px solid var(--border-color);
+    width: 370px;
 }
 .project-item:hover{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.project-link:hover .project-overlay-text-wrap{
+    opacity: 1;
+}
+.project-overlay{
+    position: relative;
+    overflow: hidden;
+}
+.project-overlay-text-wrap{
+    transition: opacity 200ms linear, visibility 200ms linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background-color: var(--project-overlay-background);
+    color: var(--opposite-color);
+    width: 100%;
+    opacity: 0;
+}
+.project-overlay-text{
+    padding: 63px 24px;
 }
 .project-img{
     width: 370px;
