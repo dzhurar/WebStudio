@@ -460,6 +460,7 @@ button{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.20);
+    transition: opacity 250ms var(--time-function);
 }
 .backdrop.is-hidden{
     opacity: 0;
@@ -620,7 +621,7 @@ button{
 }
 .nav-button-text{
     color: var(--title-text);
-    line-height: 162.5%;
+    line-height: 240%;
     font-weight: 500;
     font-size: 16px;
     padding: 6px 22px;
@@ -650,6 +651,10 @@ button{
     transition-duration: 250ms;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
+.project-link:hover .project-overlay-text-wrap{
+    transform: translateY(0%);
+    opacity: 1;
+}
 .project-link:hover .project-overlay-text-wrap,
 .project-link:focus .project-overlay-text-wrap{
     transition-timing-function: var(--time-function);
@@ -671,7 +676,8 @@ button{
     color: var(--opposite-color);
     width: 100%;
     opacity: 0;
-    transition-property: opacity;
+    transform: translateY(100%);
+    transition: transform 250ms var(--time-function), opacity 250ms var(--time-function);
 }
 .project-overlay-text{
     padding: 63px 24px;
