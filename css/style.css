@@ -103,9 +103,28 @@ button{
     transition-property: fill;
 }
 .contacts-link:hover .contacts-icon{
-    transition-timing-function: var(--time-function);
-    transition-duration: 250ms;
     fill: var(--hover-color);
+    animation-duration: 250ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: shake;
+}
+@keyframes shake{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
 .contacts-link:hover,
 .contacts-link:focus{
@@ -167,6 +186,21 @@ button{
     border: none;
     border-radius: 4px;
 }
+/* .hero-button:hover{
+    animation-name: buttonInteraction;
+    animation-duration: 250ms;
+    animation-timing-function: linear;
+}
+@keyframes buttonInteraction{
+    0%{
+        transform: scale(0.5);
+        position: relative;
+    }
+    100%{
+        transform: scale(1);
+        position: relative;
+    }
+} */
 .hero-button-text{
     color: var(--opposite-color);
     font-size: 16px;
